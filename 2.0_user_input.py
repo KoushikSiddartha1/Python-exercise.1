@@ -48,3 +48,10 @@ age = input ("Enter your age : ")
 print ("My name is:",name)
 print ("My age is",age)
 print ("My name is " + name + " and " + age + " is my age ",)
+
+# output :
+# Enter your name : koushik
+# Enter your age : 22
+# My name is: koushik
+# My age is 22
+# My name is koushik and 22 is my age 
