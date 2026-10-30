@@ -105,3 +105,73 @@ print(result)
 ```
 
 What is the operator for division that returns a float?
+
+---
+## 2026-10-30 19:54, in .
+
+**Me:** how to check if anumber is odd or even
+
+**Tutor:**
+
+Checking if a number is odd or even is done with the modulus operator.
+
+```python
+def is_even(number):
+    # TODO: return True if number is even, False otherwise
+    pass
+```
+
+What is the modulus operator used for in this function?
+
+---
+## 2026-10-30 20:03, in .
+
+**Me:** how to perform sort list operations
+
+**Tutor:**
+
+Sorting a list in Python.
+
+```python
+# Sorting a list of numbers
+numbers = [3, 1, 4, 1, 5, 9, 2]
+sorted_numbers = sorted(numbers)  # TODO: What does sorted() return?
+print(sorted_numbers)
+
+# Sorting a list of strings
+fruits = ["banana", "apple", "cherry"]
+sorted_fruits = sorted(fruits, reverse=True)  # TODO: What argument makes it descending?
+print(sorted_fruits)
+```
+
+What is the difference between `sorted()` and `list.sort()`?
+
+---
+## 2026-10-30 20:13, in .
+
+**Me:** use for loops and while loops
+
+**Tutor:**
+
+Looping over a sequence with a for loop.
+
+```python
+# TODO: replace the list with your data
+items = ["alpha", "beta", "gamma"]
+
+# for loop
+for item in items:
+    print(item)
+```
+
+Looping until a condition is met with a while loop.
+
+```python
+# TODO: replace the condition with your stopping rule
+count = 0
+while count < 3:
+    print(count)
+    count = count + 1
+```
+
+Which loop would you pick if you knew the exact number of repetitions in advance?
